@@ -1,2 +1,2 @@
 # gt-workspace
-Workspace
+Workspace de trabalho, exposição de todos serviços disponíveis.
