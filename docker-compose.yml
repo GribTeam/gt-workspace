@@ -1,0 +1,10 @@
+version: '2'
+services:
+    gt-workspace:      
+      image: node:8.12.0-alpine
+      working_dir: /home/node/app
+      volumes:
+        - ./:/home/node/app
+      mem_limit: 512mb
+      memswap_limit: 512mb
+      command: "npm start"
